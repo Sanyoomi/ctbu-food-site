@@ -1,0 +1,12 @@
+图片署名与许可范围
+
+以下姓名或用户名来自项目现有图片内嵌的元数据：
+豆花.jpg：jay chan / kai-chieh chan
+烤鱼.jpg：quangpraha1981
+冒菜.jpg：Markus Winkler
+香锅.jpg：BAKHROM
+洋芋.jpg：Julia Filirovska
+
+图片不适用本项目的 MIT 代码许可。上述署名不代表已经核验图片的原始来源或授权条件。
+其余图片的原始来源及授权信息未记录在现有项目中。
+为避免公开联系信息，发布副本中图片元数据的邮箱域名已经移除，保留署名。

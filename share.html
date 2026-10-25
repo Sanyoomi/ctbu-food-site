@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="向工商觅食记投稿你发现的美食。">
+  <title>我要投稿 | 工商觅食记</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">🍜 工商觅食记</a>
+      <nav class="site-nav" aria-label="主导航">
+        <a href="index.html">首页</a>
+        <a href="foods.html">觅食清单</a>
+        <a href="share.html" class="active" aria-current="page">我要投稿</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page-head">
+      <h1>我要投稿</h1>
+      <p>食堂哪个窗口被你挖到宝了？回龙湾新开的摊摊好吃？写下来，让更多工商的干饭人看到。</p>
+    </section>
+
+    <div class="success-box" id="successBox" role="status"></div>
+    
+    <form class="form-wrap" id="shareForm" novalidate>
+      <div class="form-row">
+        <label for="fNickname">昵称 <span class="required">*</span></label>
+        <input type="text" id="fNickname" name="nickname" placeholder="2~8 个字，让大家认识你">
+        <p class="error-msg"></p>
+      </div>
+
+      <div class="form-row">
+        <label for="fCategory">觅食半径</label>
+        <select id="fCategory" name="category">
+          <option value="canteen">🏫 校内食堂</option>
+          <option value="huilongwan">🏘️ 回龙湾街区</option>
+          <option value="wugongli">🛵 五公里 · 六公里</option>
+          <option value="other">🌏 其他（更远的也算）</option>
+        </select>
+      </div>
+
+      <div class="form-row">
+        <label for="fFood">美食名称 <span class="required">*</span></label>
+        <input type="text" id="fFood" name="food" placeholder="例如：老麻抄手">
+        <p class="error-msg"></p>
+      </div>
+
+      <div class="form-row">
+        <label for="fReason">推荐理由 <span class="required">*</span></label>
+        <textarea id="fReason" name="reason" rows="5" placeholder="至少 10 个字：它好吃在哪？推荐点什么？大概多少钱？"></textarea>
+        <p class="error-msg"></p>
+      </div>
+
+      <div class="form-row">
+        <label class="form-check">
+          <input type="checkbox" id="fAgree" name="agree">
+          <span>我亲自吃过，不是云推荐 <span class="required">*</span></span>
+        </label>
+        <p class="error-msg" id="agreeError">请勾选确认，云推荐是会被识破的</p>
+      </div>
+
+      <button type="submit" class="form-submit">提交投稿</button>
+    </form>
+  </main>
+
+  <button id="backTop" class="back-top" aria-label="返回顶部">↑</button>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p class="footer-logo">🍜 工商觅食记</p>
+      <p>记录重庆工商大学南岸校区的每一顿好饭 · 2026</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

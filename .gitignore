@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+node_modules/
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+*.log
+*.mp4
+*.mov
+*.zip

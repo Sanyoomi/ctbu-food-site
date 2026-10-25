@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="工商觅食清单：校内食堂、回龙湾街区、五公里六公里。">
+  <title>觅食清单 | 工商觅食记</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">🍜 工商觅食记</a>
+      <nav class="site-nav" aria-label="主导航">
+        <a href="index.html">首页</a>
+        <a href="foods.html" class="active" aria-current="page">觅食清单</a>
+        <a href="share.html">我要投稿</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page-head">
+      <h1>觅食清单</h1>
+      <p>按觅食半径整理，点击选项卡切换。人均价格都是真实水平，欢迎投稿补充。</p>
+    </section>
+
+    <div class="tabs" id="foodTabs" role="tablist" aria-label="觅食分类">
+      <button class="tab-btn active" data-tab="tab-canteen" role="tab" aria-selected="true">🏫 校内食堂</button>
+      <button class="tab-btn" data-tab="tab-huilongwan" role="tab" aria-selected="false">🏘️ 回龙湾街区</button>
+      <button class="tab-btn" data-tab="tab-wugongli" role="tab" aria-selected="false">🛵 五公里 · 六公里</button>
+    </div>
+
+    <section class="tab-panel active" id="tab-canteen" role="tabpanel">
+      <article class="food-item">
+        <img class="food-img" src="images/冒菜清单.jpg" alt="红汤冒菜">
+        <span class="food-badge" aria-hidden="true">🍲</span>
+        <div class="food-info">
+          <h3>冒菜 <span class="chip chip-hot">性价比之王</span><span class="price">￥12 ~ 18</span></h3>
+          <p class="loc">食堂二楼</p>
+          <p>自选荤素，红汤打底，米饭管够。期末周续命首选，记得多要一勺折耳根。</p>
+        </div>
+      </article>
+      <article class="food-item">
+        <img class="food-img" src="images/香锅.jpg" alt="麻辣香锅">
+        <span class="food-badge" aria-hidden="true">🍳</span>
+        <div class="food-info">
+          <h3>麻辣香锅 <span class="chip">聚餐平替</span><span class="price">￥15 ~ 22</span></h3>
+          <p class="loc">食堂三楼</p>
+          <p>微微辣就已经很够劲了，土豆片和午餐肉是必点，两个人一锅刚好。</p>
+        </div>
+      </article>
+      <article class="food-item">
+        <img class="food-img" src="images/盖饭.jpg" alt="现炒盖饭">
+        <span class="food-badge" aria-hidden="true">🍚</span>
+        <div class="food-info">
+          <h3>现炒盖饭 <span class="chip">干饭首选</span><span class="price">￥13 起</span></h3>
+          <p class="loc">食堂一楼角落窗口</p>
+          <p>现点现炒锅气足，青椒肉丝和番茄炒蛋最稳，下课晚去要排队。</p>
+        </div>
+      </article>
+      <article class="food-item">
+        <img class="food-img" src="images/拉面.jpg" alt="兰州拉面">
+        <span class="food-badge" aria-hidden="true">🍜</span>
+        <div class="food-info">
+          <h3>兰州拉面 <span class="chip">味真足</span><span class="price">￥10 ~ 14</span></h3>
+          <p class="loc">食堂一楼</p>
+          <p>不想吃辣的那天的避风港，加个蛋加份牛肉，汤都能喝完。</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="tab-panel" id="tab-huilongwan" role="tabpanel" hidden>
+      <article class="food-item">
+        <img class="food-img" src="images/苕皮.jpg" alt="夜市炭火烤串">
+        <span class="food-badge" aria-hidden="true">🍢</span>
+        <div class="food-info">
+          <h3>烤苕皮 <span class="chip chip-hot">夜市必吃</span><span class="price">￥6 ~ 10 / 串</span></h3>
+          <p class="loc">回龙湾小吃街 · 出校门步行几分钟</p>
+          <p>苕皮烤到表面起泡，夹酸萝卜粒和海椒面，趁热咬一口会爆汁。街口第一家要排队，往里走两家不用等。</p>
+        </div>
+      </article>
+      <article class="food-item">
+        <img class="food-img" src="images/豆花.jpg" alt="一碗嫩豆花">
+        <span class="food-badge" aria-hidden="true">🍚</span>
+        <div class="food-info">
+          <h3>豆花饭 <span class="chip">平价正餐</span><span class="price">￥10 ~ 15</span></h3>
+          <p class="loc">回龙湾巷子里</p>
+          <p>嫩豆花 + 一碟蘸水 + 甑子饭管添。重庆人最朴实的正餐，饭量大的同学的快乐老家。</p>
+        </div>
+      </article>
+      <article class="food-item">
+        <img class="food-img" src="images/串串.jpg" alt="夜市串串摊">
+        <span class="food-badge" aria-hidden="true">🫕</span>
+        <div class="food-info">
+          <h3>串串香 <span class="chip chip-hot">多人局首选</span><span class="price">签签计数 · 人均 ￥40 ~ 60</span></h3>
+          <p class="loc">回龙湾街区</p>
+          <p>几个同学一起去才划算，牛肉和鸭肠多拿。数签签的那一刻最刺激，也最容易超预算。</p>
+        </div>
+      </article>
+      <article class="food-item">
+        <img class="food-img" src="images/洋芋.jpg" alt="炸锅巴洋芋">
+        <span class="food-badge" aria-hidden="true">🥔</span>
+        <div class="food-info">
+          <h3>锅巴洋芋<span class="chip">嘴馋救星</span> <span class="price">￥6 ~ 10</span></h3>
+          <p class="loc">回龙湾街边摊</p>
+          <p>炸到外壳焦脆再拌料，海椒面多放才够味，边走边吃才对。</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="tab-panel" id="tab-wugongli" role="tabpanel" hidden>
+      <article class="food-item">
+        <img class="food-img" src="images/烤鱼.jpg" alt="炭火烤鱼">
+        <span class="food-badge" aria-hidden="true">🐟</span>
+        <div class="food-info">
+          <h3>苍蝇馆子烤鱼 <span class="chip chip-hot">聚餐首选</span><span class="price">人均 ￥30 ~ 50</span></h3>
+          <p class="loc">六公里沿线</p>
+          <p>藏在巷子里的老店，鱼现杀现烤，配一盆豆花和啤酒。人多去才划算，记得提前打电话留鱼。</p>
+        </div>
+      </article>
+      <article class="food-item">
+        <img class="food-img" src="images/火锅.jpg" alt="红油火锅锅底">
+        <span class="food-badge" aria-hidden="true">🍲</span>
+        <div class="food-info">
+          <h3>社区老火锅 <span class="chip">生日局</span><span class="price">人均 ￥50 ~ 70</span></h3>
+          <p class="loc">五公里 · 居民楼下</p>
+          <p>比南山上便宜，锅底照样正宗。九宫格老油，毛肚七上八下，学生过生日的标准配置。</p>
+        </div>
+      </article>
+      <article class="food-item">
+        <img class="food-img" src="images/夜烧烤.jpg" alt="深夜路边烧烤摊">
+        <span class="food-badge" aria-hidden="true">🍺</span>
+        <div class="food-info">
+          <h3>深夜烧烤<span class="chip">深夜觅食</span> <span class="price">人均 ￥25 ~ 40</span></h3>
+          <p class="loc">五公里夜宵摊</p>
+          <p>烤脑花、烤茄子、烤鸡翅，配冰饮料。考试周结束的那顿夜宵，是最香的。</p>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <button id="backTop" class="back-top" aria-label="返回顶部">↑</button>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p class="footer-logo">🍜 工商觅食记</p>
+      <p>记录重庆工商大学南岸校区的每一顿好饭 · 2026</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
